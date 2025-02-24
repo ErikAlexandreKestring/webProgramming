@@ -1,7 +1,5 @@
-# webProgramming
-
 # Tecnologias utilizadas
-# front-end
+## front-end
  - HTML
  - CSS
  - JavaScript
@@ -12,10 +10,10 @@
 ## Banco de dados
  - mySQL
 
-# Projeto
+### Projeto
  - Ecommerce(loja de roupa)
 
-## Contendo 1 CRUD e 1 transação
+### Contendo 1 CRUD e 1 transação
  - CRUD
  - login do usuário - autenticação JWT
 
