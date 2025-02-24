@@ -1,5 +1,10 @@
 # webProgramming
 
+# Tecnologias utilizadas
+--HTML
+--CSS
+--JavaScript
+
 ## Aplicação de um ecommerce
 
 ### Contendo 1 CRUD e 1 transação
