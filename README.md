@@ -6,10 +6,10 @@
  - CSS
  - JavaScript
 
-# back-end
+## back-end
  - node.js
 
-# Banco de dados
+## Banco de dados
  - mySQL
 
 # Projeto
