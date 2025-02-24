@@ -1,15 +1,25 @@
 # webProgramming
 
 # Tecnologias utilizadas
---HTML
---CSS
---JavaScript
+# front-end
+ - HTML
+ - CSS
+ - JavaScript
 
-## Aplicação de um ecommerce
+# back-end
+ - node.js
 
-### Contendo 1 CRUD e 1 transação
+# Banco de dados
+ - mySQL
 
-#### Fluxo do usuário
+# Projeto
+ - Ecommerce(loja de roupa)
+
+## Contendo 1 CRUD e 1 transação
+ - CRUD
+ - login do usuário - autenticação JWT
+
+### Fluxo do usuário
 1. Usuário entrará na página home;
 2. Usuário escolherá um produto;
 3. Usuário irá selecionar tamanho do produto;
