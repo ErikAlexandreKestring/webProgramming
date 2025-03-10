@@ -1,7 +1,5 @@
 # Projeto de Ecommerce - Loja de Roupas
 
-Este repositório contém o código e a documentação do projeto de um ecommerce de loja de roupas, desenvolvido como parte de um trabalho acadêmico de Engenharia de Software.
-
 ## Tecnologias Utilizadas
 - Front-end: HTML, CSS, JavaScript
 - Back-end: Node.js, express

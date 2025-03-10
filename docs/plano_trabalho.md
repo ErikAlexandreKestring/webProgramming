@@ -1,8 +1,8 @@
 # Plano de Trabalho e Responsabilidades
 
 **Membros da Equipe:**
-- Vytor de Oliveira (Desenvolvedor Front-end)
-- Erik Alexandre Kestring (Desenvolvedor Back-end)
+- Vytor de Oliveira
+- Erik Alexandre Kestring
 
 ## Atividades
 

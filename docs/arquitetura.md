@@ -11,20 +11,20 @@ Optamos por uma arquitetura monolítica, onde front-end e back-end estão integr
 
 1. Node.js (Back-end)
 
-Escolhemos Node.js devido ao seu desempenho e escalabilidade, especialmente para aplicações com alta interação do usuário.
+ - Escolhemos Node.js devido ao seu desempenho e escalabilidade, especialmente para aplicações com alta interação do usuário.
 I/O não bloqueante: Ideal para operações intensivas de leitura e escrita.
-Escalabilidade: Gerencia múltiplas conexões simultâneas de forma eficiente.
-Ecossistema rico: Grande variedade de pacotes disponíveis no npm.
-Tecnologias utilizadas:
-Express.js: Framework para criação de APIs RESTful.
-JWT: Biblioteca para autenticação segura.
+ - Escalabilidade: Gerencia múltiplas conexões simultâneas de forma eficiente.
+ - Ecossistema rico: Grande variedade de pacotes disponíveis no npm.
+  **Tecnologias utilizadas:**
+ - Express.js: Framework para criação de APIs RESTful.
+ - JWT: Biblioteca para autenticação segura.
 
 2. MySQL (Banco de Dados)
 
 Optamos pelo MySQL por sua confiabilidade e suporte a transações complexas.
 Modelo Relacional: Ideal para armazenar informações estruturadas.
-SQL: Facilita a manipulação e consulta de dados.
-Escalabilidade e performance: Suporte a grandes volumes de dados.
+ - SQL: Facilita a manipulação e consulta de dados.
+ - Escalabilidade e performance: Suporte a grandes volumes de dados.
 Uso no sistema:
  - Produtos: Nome, descrição, preço e categorias.
  - Usuários: Nome, e-mail e senha criptografada.
@@ -43,9 +43,9 @@ Fluxo de autenticação:
 4. Front-end: HTML, CSS, JavaScript
 
 Para o front-end, utilizamos tecnologias padrão:
-HTML: Estrutura do conteúdo.
-CSS: Estilização e responsividade.
-JavaScript: Interatividade e comunicação assíncrona com o back-end.
+ - HTML: Estrutura do conteúdo.
+ - CSS: Estilização e responsividade.
+ - JavaScript: Interatividade e comunicação assíncrona com o back-end.
 Ferramentas adicionais:
-Bootstrap: Layout responsivo e estilizado.
-Axios: Requisições HTTP assíncronas.
+ - Bootstrap: Layout responsivo e estilizado.
+ - Axios: Requisições HTTP assíncronas.
