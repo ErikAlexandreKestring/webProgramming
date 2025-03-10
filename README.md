@@ -1,26 +1,23 @@
-# Tecnologias utilizadas
-## front-end
- - HTML
- - CSS
- - JavaScript
+# Projeto de Ecommerce - Loja de Roupas
 
-## back-end
- - node.js
+Este repositório contém o código e a documentação do projeto de um ecommerce de loja de roupas, desenvolvido como parte de um trabalho acadêmico de Engenharia de Software.
 
-## Banco de dados
- - mySQL
+## Tecnologias Utilizadas
+- Front-end: HTML, CSS, JavaScript
+- Back-end: Node.js, express
+- Banco de Dados: MySQL
 
-### Projeto
- - Ecommerce(loja de roupa)
+## Funcionalidades
+- Login e autenticação de usuários com JWT
+- Visualização e compra de produtos
+- CRUD de usuários e produtos
+- Processamento de pagamentos
 
-### Contendo 1 CRUD e 1 transação
- - CRUD
- - login do usuário - autenticação JWT
+## Arquitetura
+O sistema segue uma arquitetura **monolítica**, com um único servidor gerenciando tanto o front-end quanto o back-end.
 
-### Fluxo do usuário
-1. Usuário entrará na página home;
-2. Usuário escolherá um produto;
-3. Usuário irá selecionar tamanho do produto;
-4. Usuário irá clicar no botão de compra;
-5. Se o usuário não tiver logado em sua conta deverá logar para efetuar a compra;
-6. Usuário fez a compra e encerra o fluxo;
+## Documentação
+Para detalhes sobre requisitos funcionais, não funcionais, arquitetura e plano de trabalho, consulte os seguintes arquivos:
+- [Requisitos Funcionais e Não Funcionais](docs/requisitos.md)
+- [Arquitetura e Tecnologias Escolhidas](docs/arquitetura.md)
+- [Plano de Trabalho e Responsabilidades](docs/plano_trabalho.md)
