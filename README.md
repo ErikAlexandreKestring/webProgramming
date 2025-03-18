@@ -3,7 +3,7 @@
 ## Tecnologias Utilizadas
 - Front-end: HTML, CSS, JavaScript
 - Back-end: Node.js, express
-- Banco de Dados: MySQL
+- Banco de Dados: postgreSQL
 
 ## Funcionalidades
 - Login e autenticação de usuários com JWT
