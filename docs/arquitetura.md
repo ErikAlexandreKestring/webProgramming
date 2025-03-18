@@ -19,9 +19,9 @@ I/O não bloqueante: Ideal para operações intensivas de leitura e escrita.
  - Express.js: Framework para criação de APIs RESTful.
  - JWT: Biblioteca para autenticação segura.
 
-2. MySQL (Banco de Dados)
+2. postgreSQL (Banco de Dados)
 
-Optamos pelo MySQL por sua confiabilidade e suporte a transações complexas.
+Optamos pelo postgreSQL por sua confiabilidade e suporte a transações complexas.
 Modelo Relacional: Ideal para armazenar informações estruturadas.
  - SQL: Facilita a manipulação e consulta de dados.
  - Escalabilidade e performance: Suporte a grandes volumes de dados.
