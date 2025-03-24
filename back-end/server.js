@@ -7,16 +7,13 @@ require("dotenv").config();
 const app = express();
 const port = process.env.PORT || 3000;
 
-// Configuração do Supabase
 const supabaseUrl = process.env.SUPABASE_URL;
 const supabaseKey = process.env.SUPABASE_KEY;
 const supabase = createClient(supabaseUrl, supabaseKey);
 
-// Middleware
 app.use(cors());
 app.use(express.json());
 
-// Rota de teste
 app.get("/usuarios", async (req, res) => {
   try {
     const { data, error } = await supabase.from("usuarios").select("*");
@@ -27,12 +24,10 @@ app.get("/usuarios", async (req, res) => {
   }
 });
 
-// Rota principal
 app.get("/", (req, res) => {
   res.send("API rodando no Vercel!");
 });
 
-// Iniciar servidor
 app.listen(port, () => {
   console.log(`Servidor rodando na porta ${port}`);
 });
@@ -41,7 +36,6 @@ app.post("/cadastro", async (req, res) => {
   try {
     const { nome, email, senha } = req.body;
 
-    // Verificar se o e-mail já está cadastrado
     const { data: existingUser, error: userError } = await supabase
       .from("usuarios")
       .select("*")
@@ -52,11 +46,9 @@ app.post("/cadastro", async (req, res) => {
       return res.status(400).json({ message: "E-mail já cadastrado!" });
     }
 
-    // Hash da senha
     const saltRounds = 10;
     const senhaHash = await bcrypt.hash(senha, saltRounds);
 
-    // Inserir usuário no Supabase
     const { data, error } = await supabase.from("usuarios").insert([
       { nome_completo: nome, email, senha: senhaHash, is_admin: false },
     ]);
@@ -127,5 +119,4 @@ app.put('/produtos/:id', async (req, res) => {
 });
 
 
-// Exporta o app para o Vercel
 module.exports = app;
