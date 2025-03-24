@@ -1,11 +1,9 @@
-/* Reset básico para remover margens e padding */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
   }
   
-  /* Corpo da página */
   body {
     font-family: "Poppins", sans-serif;
     background-color: #f1f1f1;
@@ -15,7 +13,6 @@
     height: 100vh;
   }
   
-  /* Container principal de cadastro */
   .cadastro-container {
     width: 100%;
     display: flex;
@@ -40,7 +37,6 @@
     font-weight: 700;
   }
   
-  /* Estilos para os campos de input */
   .input-group {
     margin-bottom: 20px;
     text-align: left;
@@ -85,7 +81,6 @@
     background-color: #e67e22;
   }
   
-  /* Estilos para o footer */
   .footer {
     margin-top: 20px;
     font-size: 1em;
