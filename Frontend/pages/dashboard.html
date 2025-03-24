@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerenciar Produtos</title>
+    <link rel="stylesheet" href="../css/dashboard.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Gerenciar Produtos</h2>
+        <button class="add-btn" onclick="abrirModal()">Adicionar Produto</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                    <th>Estoque</th>
+                    <th>Tamanhos</th>
+                    <th>Imagem</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="product-list"></tbody>
+        </table>
+    </div>
+
+    <div id="product-modal" class="modal">
+        <div class="modal-content">
+            <h3 id="modal-title">Adicionar Produto</h3>
+            <form id="product-form">
+                <input type="hidden" id="product-id">
+                <input type="text" id="product-name" placeholder="Nome do Produto" required>
+                <input type="text" id="product-descricao" placeholder="Descrição" required>
+                <input type="number" id="product-price" placeholder="Preço" step="0.01" required>
+                <input type="number" id="product-estoque" placeholder="Estoque" required>
+                <input type="text" id="product-tamanhos" placeholder="Tamanhos (ex: P,M,G)" required>
+                <input type="text" id="product-imagem" placeholder="URL da Imagem" required>
+                <button type="submit" class="add-btn">Salvar</button>
+                <button type="button" class="close-btn" onclick="fecharModal()">Fechar</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="../js/dashboard.js"></script>
+</body>
+</html>
