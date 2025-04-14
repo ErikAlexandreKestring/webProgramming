@@ -63,6 +63,7 @@ header nav ul li a:hover {
 .cadastro-box {
   background-color: white;
   width: 100%;
+  margin-top: 3em;
   max-width: 400px;
   padding: 40px;
   border-radius: 10px;
