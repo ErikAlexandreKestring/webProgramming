@@ -23,10 +23,7 @@ function moverCarrossel(direcao) {
   carrossel.style.transform = `translateX(${deslocamento}px)`;
 }
 
-// Função para mostrar detalhes do produto
-function verDetalhes(produtoId) {
-  alert("Você clicou para ver os detalhes do " + produtoId);
-}
+// Função para acessar a página do produto
 
 document.addEventListener("DOMContentLoaded", function () {
   const form = document.querySelector("form");
@@ -50,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
         headers: {
           "Content-Type": "application/json",
         },
-        body: JSON.stringify({ nome, email, senha }),
+        body: JSON.stringify({nome, email, senha}),
       });
 
       const data = await response.json();
